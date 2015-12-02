@@ -1,3 +1,5 @@
+'use strict';
+
 const fs = require('fs');
 
 fs.readFile('./01.data', 'utf-8', (err, data) => {
