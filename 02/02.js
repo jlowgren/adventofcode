@@ -1,7 +1,7 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const file = path.join(__dirname, '02.dat');
 const input = fs.readFileSync(file, { encoding: 'utf-8' });
